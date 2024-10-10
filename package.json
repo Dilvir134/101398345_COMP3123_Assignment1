@@ -1,0 +1,17 @@
+{
+  "name": "101398345_COMP3123-Assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "password-hash": "^1.2.2",
+    "path": "^0.12.7"
+  }
+}
