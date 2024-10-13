@@ -72,7 +72,7 @@ router.put('/employees/:empid', (req, res) => {
             message: "Employee content can not be empty"
         });
     }
-
+    req.body["updatedAt"] = Date.now();
     employeeModel.findByIdAndUpdate(req.params.empid, req.body, {new: true})
         .then(employee => {
             if (employee) {

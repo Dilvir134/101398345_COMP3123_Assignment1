@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoutes');
 const employeeRoutes = require('./routes/employeeRoutes');
 
-const DB_URL = "mongodb+srv://dilvir134:ZLjO7X1XL4Z8suM6@cluster0.piyy6.mongodb.net/COMP3123_Assignment1?retryWrites=true&w=majority&appName=Cluster0"
+const DB_URL = "mongodb+srv://dilvir134:<db_password>@cluster0.piyy6.mongodb.net/COMP3123_Assignment1?retryWrites=true&w=majority&appName=Cluster0"
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 
